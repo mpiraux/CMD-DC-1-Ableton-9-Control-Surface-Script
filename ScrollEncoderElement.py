@@ -1,13 +1,7 @@
-from _Framework.EncoderElement import EncoderElement
 from _Framework.ButtonElement import ButtonElement
-from _Framework.InputControlElement import InputControlElement
-
 from _Framework.CompoundComponent import CompoundComponent
-from _Framework.SessionComponent import SessionComponent
+from _Framework.EncoderElement import EncoderElement
 from _Framework.SubjectSlot import subject_slot
-
-from _Framework.Task  import Task
-from functools import partial
 
 class ScrollEncoderElement(EncoderElement,CompoundComponent):
 	def __init__(self, msg_type, channel, identifier, map_mode, session, transport, mixer, looper):

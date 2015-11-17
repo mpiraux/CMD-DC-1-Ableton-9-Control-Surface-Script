@@ -1,5 +1,4 @@
 #Embedded file name: /Users/versonator/Hudson/live/Projects/AppLive/Resources/MIDI Remote Scripts/APC40/ShiftableDeviceComponent.py
-import Live
 from _Generic.Devices import *
 from _Framework.DeviceComponent import DeviceComponent
 from _Framework.ChannelTranslationSelector import ChannelTranslationSelector
@@ -82,4 +81,4 @@ class ShiftableDeviceComponent(DeviceComponent):
 
     def _on_on_off_changed(self):
         if not self._shift_pressed:
-            DeviceComponent._on_on_off_changed(self)
+            DeviceComponent._on_device_on_off_changed(self)
