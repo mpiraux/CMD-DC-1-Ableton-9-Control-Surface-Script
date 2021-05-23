@@ -30,7 +30,7 @@
 # You can add other speeds/tweak the defined speeds in CNTRL_R_LITE_DEFS.py
 # 
 
-from DC1_DEFS import * # This line imports a set of simple definitions CNTRL_R_LITE_DEFS.py to make this file easier to read + customize.
+from .DC1_DEFS import * # This line imports a set of simple definitions CNTRL_R_LITE_DEFS.py to make this file easier to read + customize.
 
 # PART 1: Setting up your session view (the red box / clip grid) if you want it. 
 # Default in this script is to use CNTRL:R's 4x4 grid, but you could *easily* modify this to use the 16x2 grid, or any other combo.

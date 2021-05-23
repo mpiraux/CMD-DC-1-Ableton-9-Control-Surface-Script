@@ -2,7 +2,7 @@
 #from MonOhmod import MonOhmod
 from _Framework.ButtonElement import ButtonElement
 from _Framework.ModeSelectorComponent import ModeSelectorComponent
-from FlashingButtonElement import FlashingButtonElement
+from .FlashingButtonElement import FlashingButtonElement
 from _Tools.re import *
 
 class DeviceSelectorComponent(ModeSelectorComponent):
