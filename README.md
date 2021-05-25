@@ -1,5 +1,6 @@
-# CMD DC-1 Ableton 9 Control surface script
-A port of the original Behringer control surface script to Ableton 9.1.4+.
+# CMD DC-1 Ableton 11 Control surface script
+A port of the original Behringer control surface script to Ableton 11+.
+Look for the live9 branch for Ableton 9.1.4+ support.
 Please report any bug using in the issue section.
 
 # Installation notes
