@@ -1,4 +1,4 @@
-from __future__ import with_statement
+
 import Live # This allows us (and the Framework methods) to use the Live API on occasion
  # We will be using time functions for time-stamping our log file outputs
 
@@ -28,18 +28,17 @@ from _Framework.SessionComponent import SessionComponent # Class encompassing se
 from _Framework.SessionZoomingComponent import SessionZoomingComponent
 from _Framework.SessionZoomingComponent import DeprecatedSessionZoomingComponent # Class using a matrix of buttons to choose blocks of clips in the session
  # Class representing a slider on the controller
-from _Framework.TransportComponent import TransportComponent # Class encapsulating all functions in Live's transport section
-17
-from SimpleButtonElement import SimpleButtonElement
-from ShiftableDeviceComponent import ShiftableDeviceComponent
-from FlashingButtonElement import FlashingButtonElement 
-from DC1_Map import * 
-from DC1_DEFS import *
-from DetailViewControllerComponent import DetailViewControllerComponent
+from _Framework.TransportComponent import TransportComponent # Class encapsulating all functions in Live's transport section 17
+from .SimpleButtonElement import SimpleButtonElement
+from .ShiftableDeviceComponent import ShiftableDeviceComponent
+from .FlashingButtonElement import FlashingButtonElement 
+from .DC1_Map import * 
+from .DC1_DEFS import *
+from .DetailViewControllerComponent import DetailViewControllerComponent
 from _Generic.Devices import *
-from CMDEncoderElement import CMDEncoderElement
-from ScrollEncoderElement import ScrollEncoderElement
-from LooperComponent import LooperComponent
+from .CMDEncoderElement import CMDEncoderElement
+from .ScrollEncoderElement import ScrollEncoderElement
+from .LooperComponent import LooperComponent
 # Global Variables
 CHANNEL = 5 # assume channel is constant for everything
 class DC1(ControlSurface):
